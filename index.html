@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <link
+    href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap"
+    rel="stylesheet"
+  />
+    <title>Mi Juego</title>
+</head>
+<body>
+    <header>
+        <h1>Rock - Paper - Scissors </h1>
+    </header>
+    <div class="score-box">
+        <div class="score-container">
+            <div class="userlabel label">User</div>
+            <div class="cpulabel label">Cpu</div>
+            <span id="userPoints" class="userpoint points">0</span>
+            <span class="points">:</span>
+            <span id="cpuPoints" class="cpupoint points">0</span>
+        </div>
+    </div>
+    <div class="creator"> 
+        <p id="creator">this was made by juan</p>
+        <p id="winner" style="display: none;"> Tu eleccion es <span id="user">xxx</span>, la eleccion de la CPU es <span id="cpu">xxx</span>, has <span id="won">xxx</span></p>
+    </div>
+    <div class="picturebox">
+        <div id="rock" class="rock picture"></div>
+        <div id="paper" class="paper picture"></div>
+        <div id="scissors" class="scissors picture"></div>
+    </div>
+    <div class="movebox">
+        <p>make your move</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
